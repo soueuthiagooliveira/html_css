@@ -3,79 +3,128 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>frontend</title>
+    <link rel="stylesheet" href="style.css"/>
+
+<title>Frontend</title>
+
 </head>
 <body>
-    <header>
+    <header class="header">
+        <div class="container" style="padding-top: 0px">
         <nav>
-             <ul>
-                <li>
-                <a href="home.html">HOME</a>            
-                </li>
-                <li>
-                    <a href="tags.html">TAGS</a>
-                </li>
-                <li>
-                    <a href="css.html">CSS</a>
-                </li>
-            </ul>
+             <ul class="nav-links">
+                <a href="home.html">
+                <li class="link">HOME</li></a>
+                
+                <a href="tags.html">               
+                <li  class="link">TAGS</li></a>
+
+                <a href="css.html">               
+                <li  class="link">CSS</li></a>
+                                
+             </ul>
         </nav>
-        <h1>TAGS</h1>
+        <h1 class="titulo">TAGS</h1>  
+    </div>      
     </header> 
     <hr/>
-    <section>
+    <section class="content">
+        <div class="container">
+       
         <h2>O que são as tags?</h2>
+
             Existem muitas tags em HTML, cada uma com sua função específica.<br> 
             Algumas das tags mais comuns e amplamente utilizadas em HTML incluem:<br><br>
 
-            <strong>html</strong>: Define o início e o fim de um documento HTML.<br>
-            <strong>head</strong>: Contém informações sobre o documento, como título, links para estilos e scripts.<br>
-            <strong>title</strong>: Define o título do documento exibido na barra de título do navegador.<br>
-            <strong>body</strong>: Contém o conteúdo principal do documento, como texto, imagens, links e outros elementos.<br>
-            <strong>h1, h2, h3, h4, h5, e h6</strong>: Definem cabeçalhos de diferentes níveis de importância.<br>
-            <strong>p</strong>: Define um parágrafo de texto.<br>
-            <strong>a</strong>: Define um link para outra página ou recurso.<br>
-            <strong>img</strong>: Insere uma imagem na página.<br>
-            <strong>ul</strong>: Define uma lista não ordenada, sua indicação são apenas por bolinhas <br>
-            <strong>ol</strong>: Define uma lista ordenada, sua indicação é por sequêcia numérica.<br>
-            <strong>li</strong>: Define um item de lista dentro de ul ou ol.<br>
-            <strong>button</strong>: Inclui um botão na página.<br>
-            <strong>table</strong>: Inclui uma tabela na página.<br><br> 
-                        
+            <table>
+                <thead>
+                    <td><strong>TAGS</strong></td>
+                    <td><b>DEFINIÇÕES</b></td>   
+                    <td></td>             
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>&lt;html&gt;</strong></td>
+                        <td><span>Define o início e o fim de um documento HTML</span></td>
+                        <td><button class="sucess">&lt;html&gt;</button></td>
+                    </tr> 
+                    <tr>
+                        <td><strong>&lt;head&gt;</strong></td>
+                        <td><span>Contém informações sobre o documento, como título, links para estilos e scripts</span></td>
+                        <td><button class="sucess">&lt;head&gt;</button></td>
+                    </tr>   
+                    <tr>
+                        <td><strong>&lt;title&gt;</strong></td>
+                        <td><span>Define o título do documento exibido na barra de título do navegador</span></td>
+                        <td><button class="sucess">&lt;title&gt;</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>&lt;body&gt;</strong></td>
+                        <td><span>Contém o conteúdo principal do documento, como texto, imagens, links e outros elementos</span></td>
+                        <td><button class="sucess">&lt;body&gt;</button></td>
+                    </tr> 
+                    <tr>
+                        <td><strong>&lt;h1,h2,h3,h4,h5,h6&gt;</strong></td>
+                        <td><span>Definem cabeçalhos de diferentes níveis de importância</span></td>
+                        <td><button class="sucess">&lt;h1&gt;</button></td>
+                    </tr> 
+                    <tr>
+                        <td><strong>&lt;p&gt;</strong></td>
+                        <td><span>Define um parágrafo de texto</span></td>
+                        <td><button class="sucess">&lt;p&gt;</button></td>
+                    </tr>  
+                    <tr>
+                        <td><strong>&lt;a&gt;</strong></td>
+                        <td><span>Define um link para outra página ou recurso</span></td>
+                        <td><button class="sucess">&lt;a&gt;</button></td>
+                    </tr> 
+                    <tr>
+                        <td><strong>&lt;img&gt;</strong></td>
+                        <td><span>Insere uma imagem na página</span></td>
+                        <td><button class="sucess">&lt;img&gt;</button></td>
+                    </tr>  
+                    <tr>
+                        <td><strong>&lt;ul&gt;</strong></td>
+                        <td><span>Define uma lista não ordenada, sua indicação são apenas por bolinhas</span></td>
+                        <td><button class="sucess">&lt;ul&gt;</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>&lt;ol&gt;</strong></td>
+                        <td><span>Define uma lista ordenada, sua indicação é por sequêcia numérica</span></td>
+                        <td><button class="sucess">&lt;ol&gt;</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>&lt;li&gt;</strong></td>
+                        <td><span>Define um item de lista dentro de ul ou ol</span></td>
+                        <td><button class="sucess">&lt;li&gt;</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>&lt;button&gt;</strong></td>
+                        <td><span>Inclui um botão na página</span></td>
+                        <td><button class="sucess">&lt;button&gt;</button></td>
+                    </tr> 
+                    <tr>
+                        <td><strong>&lt;table&gt;</strong></td>
+                        <td><span>Inclui uma tabela na página</span></td>
+                        <td><button class="sucess">&lt;table&gt;</button></td>
+                    </tr>                  
+                </tbody>
+            </table>
+
             Essas são apenas algumas das tags mais comuns em HTML.<br>
             Existem muitas outras tags disponíveis para diferentes fins e necessidades de formatação de documentos HTML.<br>            
-        </p>
-
-        <img src="assets/imagem2.jpg.png"/> 
-        <br>
-        <br>
-        <br>
-        Observação;<br>
-        Na aula 07 do módulo de frontend o professor Gabriel ensinou a criar tabelas e botões em HTML <br>
-        Então vou deixar um exemplo de tabela aqui apenas para fins de estudos e informação. <br><br>
-        <table>
-            <tr>
-              <th> <strong>Cabeçalho 01</strong> </th>
-              <th> <strong>Cabeçalho 02</strong></th>
-            </tr>
-            <tr>
-              <td>Dado 01</td>
-              <td>Dado 02</td>
-            </tr>
-            <tr>
-                <td><button>Botão 01</button></td>
-                <td><button>Botão 02</button></td>
-            </tr>
-          </table>
-          
-    </section>
+        </p>         
+    </div>    
+    </section>    
     <hr />
-    <footer>
-        <ul>
-         <li>Eu Codo</li>
-         <li>Prof. Charles</li>
-         <li>Prof. Gabriel</li>            
-        </ul>
-    </footer>
+    <footer class="footer">
+        <div class="container">
+            <ul class="curso">
+             <li  class="eucodo">Eu Codo</li>
+             <li  class="charles">Prof. Charles</li>
+             <li  class="gabriel">Prof. Gabriel</li>            
+            </ul>
+        </div>
+        </footer>
 </body>
 </html>
